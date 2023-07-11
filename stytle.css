@@ -6,40 +6,38 @@
 /* banner-style-start */
 .banner-section {
     background: rgba(229, 84, 115, 0.10);
-
-}
-
-.banner {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
 
 }
+.banner-item{
+    margin-left: 80px;
 
-.banner-items {
-    margin: 200px;
-    padding: 30px;
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    display: flex;
-    width: 708px;
-    flex-direction: column;
-
 
 }
 
-.banner-dsc {
+.banner-disciption {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 10px;
 
 }
+
+/* .banner-items {
+    margin: 200px;
+    padding: 30px;
+    height: 500px;
+} */
+
 
 .button {
     border-radius: 8px;
@@ -55,8 +53,8 @@
 }
 
 .banner-img {
-    margin: 150px 200px -5px 0px;
-
+    width: 740px;
+    height: 950px;
 }
 
 /* banner-style-end */
