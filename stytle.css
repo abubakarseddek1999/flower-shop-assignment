@@ -19,8 +19,6 @@
 .banner-items {
     margin: 200px;
     padding: 30px;
-    border: 2px solid red;
-
 }
 
 .banner-title {
@@ -33,8 +31,6 @@
 
 
 }
-
-.banner-dsc {}
 
 .button {
     border-radius: 8px;
@@ -55,6 +51,7 @@
 }
 
 /* banner-style-end */
+
 /* hot-deal-sub-container-style-start */
 .hot-deal-container {
     border-radius: 8px;
@@ -72,8 +69,6 @@
 .hot-deal-items {
     margin: 200px;
     padding: 30px;
-    border: 2px solid red;
-
 }
 
 .hot-deal-sub-container-title {
@@ -83,15 +78,114 @@
 
 
 }
-
-.hot-deal-sub-container-dsc {}
-
 .hot-deal-sub-container-img {
     margin: 30px 200px 5px 40px;
 
 }
 
 /* hot-deal-sub-container-style-end */
+
+/* our-future-section-style */
+.our-future-section {
+    align-items: center;
+    text-align: center;
+}
+
+.future-section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+h3{
+    margin-top: 10px;
+}
+.future-section-item1{
+    margin-top: 40px;
+}
+
+.future-section-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 800px;
+    
+
+}
+.rose-benifit-section{
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 50px;
+}
+.rose-benifit-section-item1{
+    margin: 30px 20px 5px 100px;
+
+}
+.rose-benifit-section-item2{
+    margin: 100px 20px 5px 30px;
+    text-align: center;
+
+}
+.rose-benifit-title{
+    text-align: center;
+    font-size: 45px;
+}
+
+.future-section-item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    height: 500px;
+    /* border-radius: 8px; */
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+
+
+}
+
+.future-section-img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0px 20px;
+    width: 464px;
+    height: 538px;
+
+
+}
+
+.future-section-img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 20px 20px 0px 20px;
+    width: 464px;
+    height: 538px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.future-section-img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 20px 20px 0px 20px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+
+}
+
+/* our-future-section-style */
+
 
 /* instagram-section-style-start */
 .instagram-section {
