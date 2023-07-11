@@ -32,6 +32,15 @@
 
 }
 
+.banner-dsc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+
 .button {
     border-radius: 8px;
     background: #E55473;
@@ -75,9 +84,9 @@
     color: #272727;
     font-weight: 800;
     flex-direction: column;
-
-
+    margin-bottom: 15px;
 }
+
 .hot-deal-sub-container-img {
     margin: 30px 200px 5px 40px;
 
@@ -97,10 +106,12 @@
     font-size: 40px;
     font-weight: 800;
 }
-h3{
+
+h3 {
     margin-top: 10px;
 }
-.future-section-item1{
+
+.future-section-item1 {
     margin-top: 40px;
 }
 
@@ -111,10 +122,11 @@ h3{
     gap: 20px;
     width: 100%;
     height: 800px;
-    
+
 
 }
-.rose-benifit-section{
+
+.rose-benifit-section {
     width: 80%;
     margin: 0 auto;
     height: 500px;
@@ -122,18 +134,30 @@ h3{
     background: rgba(229, 84, 115, 0.05);
     margin-bottom: 50px;
 }
-.rose-benifit-section-item1{
+
+.rose-benifit-section-item1 {
     margin: 30px 20px 5px 100px;
 
 }
-.rose-benifit-section-item2{
+
+.rose-benifit-section-item2 {
     margin: 100px 20px 5px 30px;
     text-align: center;
 
 }
-.rose-benifit-title{
+
+.rose-benifit-title {
     text-align: center;
     font-size: 45px;
+}
+
+.future-section-dsc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+
 }
 
 .future-section-item3 {
@@ -188,6 +212,15 @@ h3{
 
 
 /* instagram-section-style-start */
+.instagram-dsc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+
 .instagram-section {
     align-items: center;
     text-align: center;
@@ -198,6 +231,7 @@ h3{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 10px;
 }
 
 .instagram-section-images {
@@ -257,6 +291,7 @@ h3{
     border-radius: 8px;
     background: #FFF;
     padding: 20px;
+    margin-top: 20px;
 
 }
 
@@ -292,6 +327,7 @@ h3{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 20px;
 
 }
 
@@ -302,6 +338,11 @@ h3{
     font-weight: 400;
 
 
+}
+
+.button:hover {
+    background-color: rgb(65, 63, 63);
+    transition: 0.3s;
 }
 
 /* footer-style-end */
